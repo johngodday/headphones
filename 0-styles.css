@@ -1,0 +1,66 @@
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Styling The Header 
+===================================================
+===================================================
+===================================================
+*/
+
+header{
+    background-image: url("images/headphones_hero_1.jpg");
+    padding-top: 15px;
+    /* background-position: 0px 0px 10px 109px; */
+    color: white;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar img{
+    height: 20px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.header-text{
+    text-align: center;
+    padding: 300px 320px 100px 320px;
+}
+.text h2 {
+	margin: 0px;
+    padding: 0px;
+	}
+.text p {
+    margin: 0px;
+    padding-bottom: 20px;
+    }
+
+#header-button{
+    margin: 20px  0px 20px 0px;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    color: white;
+    background-color: #FF6565;
+}
+
+/* End of head styling  
+===================================================
+===================================================
+===================================================
+*/
+
