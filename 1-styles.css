@@ -1,0 +1,284 @@
+
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Styling The Header 
+===================================================
+===================================================
+===================================================
+*/
+
+header{
+    background-image: url("images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh; */
+    padding-top: 15px;
+    /* background-position: 0px 0px 10px 109px; */
+    color: white;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-bar img{
+    height: 20px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.header-text{
+    text-align: center;
+    padding: 300px 320px 100px 320px;
+}
+.text h2 {
+	margin: 0px;
+    padding: 0px;
+	}
+.text p {
+    margin: 0px;
+    padding-bottom: 20px;
+    }
+
+#header-button, #contact-button{
+    margin: 20px  0px 20px 0px;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    color: white;
+    background-color: #FF6565;
+}
+
+/* End of head styling  
+===================================================
+===================================================
+===================================================
+*/
+
+
+
+/* What to do style */
+
+.what-to-do, .results{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 320px 50px 320px;
+  
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5px 200px 50px 200px;
+}
+
+.fa-solid{
+  color: #FF6565;
+}
+
+/* Styling result section */
+
+.results-container{
+  background-image: url("images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 60px;
+  margin:auto;
+}
+
+
+
+.results-icon{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+.pentagon-row{
+  background-image: url('images/pentagone.png');
+  background-repeat: no-repeat;
+  background-size: 92%;
+  height: 190px;
+  width: 190px;
+  text-align: center;
+  margin: auto;
+}
+
+.pentagon{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.subtitle{
+  font-size: 30px;
+}
+
+/* Contact us  */
+
+.contact-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type=text] {
+  padding: 5px 10px;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(157, 156, 156);
+}
+
+/* styling footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+  background-color: #071629;
+  color: white;
+}
+
+.footer-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+
+}
+
+.footer-bar img{
+  height: 20px;
+  margin-left: 60px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: space-between;
+}
+
+.fa-brands{
+  color: white;
+  margin-left: 10px;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:480px){
+
+
+  .nav-bar a{
+    display: none;
+}
+
+  .header-text{
+    text-align: center;
+    font-size: small;
+    padding: 300px 80px 100px 80px;
+}
+
+#header-button, #contact-button{
+  font-size: 8px;
+}
+
+.what-to-do, .results{
+  padding: 80px 80px 20px 80px;
+  
+}
+
+.results-container{
+  background-size: 500%;
+}
+
+.results{
+  margin-top: 200px;
+}
+
+.icon {
+  flex-direction: column;
+  padding: 5px 80px 50px 80px;
+}
+
+.results-icon{
+  flex-direction: column;
+  justify-content: space-between;
+  margin:auto;
+}
+.pentagon-row{
+  background-size: 98%;
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pentagon{
+  text-align: center;
+  margin-top: 5px;
+}
+
+.pentagon p{
+  font-size: 15px;
+}
+
+}
+
+@media screen and (max-width:960px){
+  .header-text{
+    text-align: center;
+    padding: 300px 100px 100px 100px;
+}
+
+#header-button, #contact-button{
+ font-size: 8px;
+}
+
+.what-to-do, .results{
+  padding: 30px 80px 50px 80px;
+  
+}
+
+.icon {
+  flex-direction: column;
+  padding: 5px 80px 50px 80px;
+}
+
+.results-icon{
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
